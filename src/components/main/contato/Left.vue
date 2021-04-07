@@ -19,7 +19,7 @@
                 <span class="white--text">{{ item.value }}</span>
               </a>
               <a v-if="item.url" :href="item.url" target="blank">
-                <span class="white--text ">{{ item.icon.label }}</span>
+                <span class="white--text">{{ item.icon.label }}</span>
               </a>
             </div>
           </div>
