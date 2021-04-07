@@ -1,7 +1,7 @@
 <template>
   <transition mode="out-in" name="fade">
     <div v-show="isScrolled" class="elevation-6 primary" @click="$vuetify.goTo(0)" id="up-button">
-      <v-icon color="white">
+      <v-icon >
         mdi-arrow-up-bold
       </v-icon>
     </div>

@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Drawer dark color="primary" :drawer="drawer" />
-    <v-app-bar app dark color="primary">
+    <Drawer color="primary" :drawer="drawer" />
+    <v-app-bar app color="primary">
       <v-app-bar-nav-icon @click="toggleDrawer" />
       <v-spacer/>
       <v-list color="primary" dense class="d-none d-md-flex">

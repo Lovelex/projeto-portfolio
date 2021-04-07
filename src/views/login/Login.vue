@@ -5,7 +5,6 @@
         <div class="d-flex justify-center mb-8">
           <v-img max-width="112" src="@/assets/svg/logo-fire-stacks.svg" />
         </div>
-          {{loginError}}
         <v-card :loading="loginProgress" elevation="8">
           <div class="deep-orange pa-4 d-flex justify-center">
             <span class="white--text font-weight-bold text-h5">Login</span>

@@ -2,7 +2,6 @@
   <v-navigation-drawer
     :color="color"
     app
-    :dark="dark"
     v-model="drawer.isActive"
   >
     <v-list>

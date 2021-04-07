@@ -3,7 +3,7 @@
     <div class="d-flex justify-center mb-8">
       <span class="text-h4 font-weight-bold">Meu Contato</span>
     </div>
-    <v-card dark color="primary" class="px-4 py-6">
+    <v-card color="primary" class="px-4 py-6">
       <div class="d-flex">
         <v-avatar size="112">
           <img :src="avatar.image" />

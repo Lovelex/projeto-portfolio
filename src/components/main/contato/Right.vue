@@ -27,7 +27,7 @@
           label="Mensagem"
         />
         <div>
-          <v-btn :loading="addProgress" @click="add" color="primary" dark block>
+          <v-btn :loading="addProgress" @click="add" color="primary"  block>
             <span>Enviar Mensagem</span>
             <v-icon right> mdi-send </v-icon>
           </v-btn>
